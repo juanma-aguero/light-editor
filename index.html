@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>Rich text</title>
+	<link type="text/css" href="css/rich-text.css" rel="stylesheet" />
+	<script type="application/javascript" src="js/jquery-1.5.1.min.js"></script>
+	<script type="application/javascript" src="js/rich-text.js"></script>
+</head>
+
+<body style="text-align:center;font-family:arial; background-size: cover ; background-image: url('images/P4020571.JPG');" >
+<div style="border: 2px green solid; width: 500px; margin: auto;">
+	<div class="rich-text-buttons">
+		<a onclick="setMode('b')" href="#"><b>B</b>&nbsp;&nbsp;bold</a>
+		<a onclick="setMode('i')" href="#"><i>I</i>&nbsp;&nbsp;italic</a>
+		<label>light Rich text</label>
+	</div>
+	<textarea id="rich-text-area"></textarea>
+	<br/>
+	<label>Preview</label>
+	<div id="rich-text-div"></div>
+</div>
+</body>
+</html>

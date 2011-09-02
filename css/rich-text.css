@@ -1,0 +1,33 @@
+.rich-text-buttons{
+	height: 30px;
+	border: 1px solid grey;
+	line-height: 30px;
+	text-align: left;
+}
+.rich-text-buttons a{
+	border: 1px solid grey;
+	padding: 5px;
+	color: black;
+	text-decoration: none;
+}
+.rich-text-buttons a:hover{
+	background-color: #ddd;
+	cursor: pointer;
+}
+.rich-text-buttons label{
+	font-family: courier;
+	color: #98bf21;
+}
+
+#rich-text-div{
+	text-align: left;
+	width: 200px; height: 100px; border: 1px grey solid;
+	margin: auto;
+}
+#rich-text-area{
+	width: 100%;
+	height: 100px;
+	border: 5px outset #98bf21;
+	margin: auto;
+	display: block;
+}
