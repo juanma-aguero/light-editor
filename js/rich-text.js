@@ -10,8 +10,16 @@ function setMode(mode){
 }
 
 $(document).ready(function(){
-	$('#rich-text-area').keyup(function(){
-		$('#rich-text-div').html($('#rich-text-area').val());
+	$('#rich-text-area').keyup(function(e){
+		var toHtml;
+		if ( e.which == 13 ) {
+			
+			toHtml = $(this).val()+"<br/>";
+			$(this).val(toHtml);
+		}else{
+			toHtml = $(this).val();
+		}
+		$('#rich-text-div').html(toHtml);
 	});
 });
 

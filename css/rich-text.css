@@ -21,8 +21,9 @@
 
 #rich-text-div{
 	text-align: left;
-	width: 200px; height: 100px; border: 1px grey solid;
+	width: 400px; height: 100px; border: 1px grey solid;
 	margin: auto;
+	overflow: scroll;
 }
 #rich-text-area{
 	width: 100%;
